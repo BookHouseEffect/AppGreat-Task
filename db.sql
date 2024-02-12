@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS users_revenue (
+	userId VARCHAR(10) PRIMARY KEY,
+	revenue INTEGER DEFAULT 0
+)

@@ -1,0 +1,21 @@
+{
+  "name": "appgreat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "processor": "node data_processor.js"
+  },
+  "author": "Gjorche Cekovski",
+  "license": "ISC",
+  "dependencies": {
+    "async-lock": "^1.4.1",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "postgres": "^3.4.3"
+  },
+  "type": "module"
+}
